@@ -184,7 +184,6 @@ public class AgentViewApp implements Runnable {
 
 			SwingUtilities.invokeLater(new AgentViewApp());
 		} else {
-			
 			// Failed to establish session 
 			System.exit(0);
 		}
